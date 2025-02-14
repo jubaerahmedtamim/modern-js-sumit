@@ -15,7 +15,7 @@ const result = todoList.splice(2, 2);
 console.log("TODO list after remove: ",todoList)
 console.log("Removed TODO:",result)
 
-// Adding a new task 
+// Adding a new task at the begining
 todoList.splice(0, 0, 'Home Work')
 
 console.log(todoList)
